@@ -1,0 +1,127 @@
+.bg-con {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box-con {
+  height: 90%;
+  width: 70%;
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #cffcf1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  margin-top: 50px;
+}
+.timer-con {
+  display: flex;
+  justify-content: space-around;
+  height: 60%;
+  width: 100%;
+  background-position: center;
+}
+.timer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 400px;
+  width: 400px;
+  margin-bottom: 80px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time-card {
+  background-color: #ffffff;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  color: #00d9f5;
+  font-family: 'Roboto';
+  height: 0px;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 40px;
+}
+.running {
+  font-family: 'Roboto';
+  font-weight: bold;
+  height: auto;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+.pause-reset-con {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 300px;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+.pause-reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.pause-reset-icon {
+  height: 20px;
+  width: 20px;
+}
+.pause-reset-text {
+  font-family: 'Roboto';
+  font-weight: bold;
+  height: auto;
+  font-size: 20px;
+}
+.set-timer-text {
+  font-family: 'Roboto';
+  font-weight: bold;
+  height: auto;
+  font-size: 12px;
+  margin-left: 120px;
+}
+.button-con {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  margin-left: 100px;
+}
+.operator-button {
+  background-color: transparent;
+  outline: none;
+  border-width: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.button-25 {
+  background-image: linear-gradient(to right, #b3ffb3, #00d9f5);
+  height: 35px;
+  width: 80px;
+  border-width: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: 'Roboto';
+}
+.pause-reset-button {
+  background-color: transparent;
+  outline: none;
+  border-width: 0px;
+}
